@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-black font-NotoSansTc font-normal text-[20px] leading-[1.6];
+  }
+}
+
+@layer components {
+  /* NotoSerifTc */
+  .NotoSerifTc_h {
+    @apply font-NotoSerifTc font-bold text-[120px] leading-normal tracking-[0.06em];
+  }
+  .NotoSerifTc_h1 {
+    @apply font-NotoSerifTc font-bold text-[48px] leading-normal;
+  }
+  .NotoSerifTc_h2 {
+    @apply font-NotoSerifTc font-bold text-[40px] leading-normal;
+  }
+
+  /* NotoSansTc */
+  .NotoSansTc_Title {
+    @apply font-NotoSansTc font-bold text-[40px] leading-normal;
+  }
+  .NotoSansTc_Title1 {
+    @apply font-NotoSansTc font-bold text-[28px] leading-normal;
+  }
+  .NotoSansTc_Subtitle {
+    @apply font-NotoSansTc font-bold text-[24px] leading-normal;
+  }
+  .NotoSansTc_Body_1_b {
+    @apply font-NotoSansTc font-bold text-[20px] leading-[1.6];
+  }
+  .NotoSansTc_Body_1_r {
+    @apply font-NotoSansTc font-normal text-[20px] leading-[1.6];
+  }
+  .NotoSansTc_Body_2_b {
+    @apply font-NotoSansTc font-bold text-[16px] leading-[1.6];
+  }
+  .NotoSansTc_Body_2_r {
+    @apply font-NotoSansTc font-normal text-[16px] leading-[1.6];
+  }
+  .NotoSansTc_Caption {
+    @apply font-NotoSansTc font-normal text-[12px] leading-[1.6];
+  }
+
+  /* Gaegu */
+  .Gaegu_h1 {
+    @apply font-Gaegu font-normal text-[72px] leading-normal;
+  }
+  .Gaegu_h2 {
+    @apply font-Gaegu font-normal text-[40px] leading-tight;
+  }
+}
